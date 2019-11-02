@@ -46,4 +46,29 @@ body {
 
 .main-content {
     padding-top: 100px;
+
+    .about-me {
+        display: flex;
+        justify-content: center;
+
+        .image-section {
+            width: 20%;
+            margin-top: 61px;
+
+            .profile-image {
+                max-width: 90%;
+                height: auto;
+            }
+        }
+
+        .summary-section {
+            width: 40%;
+            text-align: justify;
+
+            .title {
+                font-size: 32px;
+                margin-bottom: 15px;
+            }
+        }
+    }
 }
