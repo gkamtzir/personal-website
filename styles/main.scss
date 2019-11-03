@@ -1,6 +1,10 @@
+// Colors.
+@import "./colors";
+
 body {
     font-family: 'Lora', serif;
     margin: 0px;
+    color: $primary-text-color;
 }
 
 .navbar {
@@ -69,6 +73,7 @@ body {
             .title {
                 font-size: 32px;
                 margin-bottom: 15px;
+                color: $primary-title-color;
             }
         }
     }
