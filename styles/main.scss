@@ -7,6 +7,14 @@ body {
     color: $primary-text-color;
 }
 
+// Adjusting the anchors due to fixed navbar.
+.anchor {
+    display: block; 
+    position: relative; 
+    top: -100px; 
+    visibility: hidden; 
+}
+
 .navbar {
     width: 100%;
     height: 80px;
@@ -44,7 +52,12 @@ body {
                 background-color: #d3d3d3;
                 background-size: 100%;
                 transition: background 0s;
-              }
+            }
+
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
         }
     }
 }
