@@ -77,6 +77,25 @@ body {
             }
         }
     }
+
+    .cv {
+        width: 60%;
+        margin: auto;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .title {
+            font-size: 32px;
+            margin-bottom: 15px;
+            color: $primary-title-color;
+        }
+
+        .text {
+            text-align: justify;
+        }
+    }
 }
 
 @media only screen and (max-width: 665px) {
@@ -92,6 +111,10 @@ body {
             .summary-section {
                 width: 80%;
             }
+        }
+
+        .cv {
+            width: 80%;
         }
     }
 }
