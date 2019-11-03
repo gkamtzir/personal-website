@@ -73,3 +73,20 @@ body {
         }
     }
 }
+
+@media only screen and (max-width: 665px) {
+    .main-content{
+        .about-me {
+            flex-direction: column;
+            align-items: center;
+
+            .image-section {
+                width: 40%;
+            }
+
+            .summary-section {
+                width: 80%;
+            }
+        }
+    }
+}
