@@ -131,11 +131,28 @@ body {
         }
 
         .text {
-            text-align: justify;
+            display: flex;
         }
 
         .contact-button {
-            @include contact-button($linkedin-color)
+
+            margin-right: 30px;
+
+            &.linkedin-button {
+                @include contact-button($linkedin-color);
+            }
+
+            &.github-button {
+                @include contact-button($github-color);
+            }
+
+            &.email-button {
+                @include contact-button($email-color);
+            }
+
+            &.twitter-button {
+                @include contact-button($twitter-color);
+            }
         }
     }
 }
