@@ -136,8 +136,6 @@ body {
 
         .contact-button {
 
-            margin-right: 30px;
-
             &.linkedin-button {
                 @include contact-button($linkedin-color);
             }
